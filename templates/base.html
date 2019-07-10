@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{title}}</title>
+    <style>
+       body{
+        font-family:Comic Sans MS;
+       }
+        a{
+           text-decoration: none;
+       }
+        h1{
+            text-align: center;
+        }
+        .error{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/blog">Main Blog Page</a> &nbsp&nbsp&nbsp <a href="/newpost">Add a Blog Entry</a>
+    </nav>
+
+    {% block content %}
+    {% endblock %}
+
+</body>
+</html>
